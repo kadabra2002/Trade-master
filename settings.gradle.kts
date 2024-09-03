@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TRADE HELP"
+rootProject.name = "Nunua uza app"
 include(":app")
  
