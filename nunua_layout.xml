@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    tools:openDrawer="start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    tools:context=".DisplayImagesActivity">
+
+    <include
+        layout="@layout/activity_display_images"
+        android:layout_height="match_parent"/>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_marginTop="80dp"
+        android:id="@+id/navigationView"
+        android:layout_width="150dp"
+        app:itemIconTint="@color/black"
+        style="@style/CardView.Dark"
+        android:layout_height="match_parent"
+        app:itemIconPadding="20dp"
+        app:itemTextAppearance="@color/black"
+        app:itemTextColor="@color/black"
+        app:menu="@menu/drawer_ltem"
+        app:dividerInsetStart="5dp"
+        app:dividerInsetEnd="5dp"
+        android:background="#E4D7D7"
+        android:layout_gravity="start"/>
+</androidx.drawerlayout.widget.DrawerLayout>

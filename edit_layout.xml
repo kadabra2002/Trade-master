@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width= "match_parent"
+        android:layout_height = "80dp"
+        android:id="@+id/toolbar"
+        android:background = "#070781">
+
+        <ImageButton
+            android:id="@+id/buttondrawertoggle"
+            android:layout_width ="50dp"
+            android:layout_height = "80dp"
+            android:src="@drawable/baseline_menu_24"
+            android:background="@android:color/transparent"
+            android:layout_gravity="start"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="UZA/NUNUA APP"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_vertical"
+            android:textSize="30dp"/>
+
+
+
+
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EDIT PROFILE"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_below="@id/toolbar"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/edit" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/backof_edit"
+        android:layout_margin="20dp"
+        android:layout_below="@id/edit"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/useredit"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter previous Username"
+            android:background="@drawable/loginback"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:textColorHint="#3E3A3A"
+            />
+
+        <EditText
+            android:id="@+id/New_user"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter new Username"
+            android:background="@drawable/loginback"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:textColorHint="#3E3A3A"/>
+        <EditText
+            android:id="@+id/password1edit"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Previous Password"
+            android:background="@drawable/loginback"
+            android:layout_margin="10dp"
+            android:inputType="textPassword"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:textColorHint="#3E3A3A"
+            />
+
+        <EditText
+            android:id="@+id/newpassword"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter New Password"
+            android:background="@drawable/loginback"
+            android:layout_margin="10dp"
+            android:inputType="textPassword"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:textColorHint="#3E3A3A"
+            />
+
+        <EditText
+            android:id="@+id/passwordconfirnew"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:background="@drawable/loginback"
+            android:layout_margin="10dp"
+            android:inputType="textPassword"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:textColorHint="#3E3A3A"
+            />
+
+
+        <EditText
+            android:id="@+id/emailredit"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter New Email"
+            android:background="@drawable/loginback"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:textColorHint="#3E3A3A"
+            />
+
+        <EditText
+            android:id="@+id/phoneredit"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter New Phone number"
+            android:background="@drawable/loginback"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:inputType="number"
+            android:textColorHint="#3E3A3A"
+            />
+
+
+
+        <Button
+            android:id="@+id/editbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="EDIT PROFILE"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

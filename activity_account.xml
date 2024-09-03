@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:background="#141495"
+    tools:context=".accountActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/turn"/>
+
+            <TextView
+                android:id="@+id/large_text"
+                android:layout_width="352dp"
+                android:layout_height="49dp"
+                android:text="Help page"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:paddingLeft="20dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/medium_text"
+            android:layout_width="333dp"
+            android:layout_height="39dp"
+            android:text="Welcome to Trade. Master App"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:id="@+id/small_text"
+            android:layout_width="337dp"
+            android:layout_height="76dp"
+            android:text="We're here to help you  to navigate  our app for buyying ,selling and posting  product. Below, you'll find detailed instruction and answers to common questions."
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/medium_text"
+            android:layout_width="333dp"
+            android:layout_height="39dp"
+            android:text="create an account"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/extra_small_text"
+            android:layout_width="331dp"
+            android:layout_height="534dp"
+            android:text="1.After downloading Trade Master in playstore or app store after that open the app and tap (sign up).\n\n2.Enter your email,create the strong password and fill the required details\n\n3.Verify your email address to complete the registration\n\n\n"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            tools:ignore="TextSizeCheck" />
+    </LinearLayout>
+</RelativeLayout>

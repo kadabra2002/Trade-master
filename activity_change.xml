@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:background="#141495"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/turn"/>
+
+            <TextView
+                android:id="@+id/large_text"
+                android:layout_width="352dp"
+                android:layout_height="49dp"
+                android:text="Help page"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:paddingLeft="20dp"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/medium_text"
+            android:layout_width="333dp"
+            android:layout_height="39dp"
+            android:text="Welcome to Trade. Master App"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:id="@+id/small_text"
+            android:layout_width="337dp"
+            android:layout_height="76dp"
+            android:text="We're here to help you  to navigate  our app for buyying ,selling and posting  product. Below, you'll find detailed instruction and answers to common questions."
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/medium_text"
+            android:layout_width="333dp"
+            android:layout_height="39dp"
+            android:text="changing product"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/extra_small_text"
+            android:layout_width="331dp"
+            android:layout_height="464dp"
+            android:text="1.Access the product list navigate section from the main menu or dashboard.  \n\n2.Editing product details; once in the product view, look for an edit or modify button, typcally located at the top  of the screen\n\n3.Tap the edit button to enable editing mode for the product details.\n\n4.Update product information;\n>>name:modify product name as needed.\n>>Description:update the product description to provide accurate and current information.\n>>price:adjust the price to reflect the current matrket  and various promotion\n>>image:add new image section to remove  outdated ones.Tap on image section to upload or capture new photos\n\n5.Saving changes ,After making the necessary update tap the save button to apply the changes.  "
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            tools:ignore="TextSizeCheck" />
+    </LinearLayout>
+</RelativeLayout>
