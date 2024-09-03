@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NunuaUzaApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivityregister"/>
+        <activity android:name=".howeactivitybabe"/>
+        <activity android:name=".edite_activity"/>
+        <activity android:name=".send_fileActivity"/>
+        <activity android:name=".DisplayImagesActivity"/>
+        <activity android:name=".home_page_activity_main"/>
+        <activity android:name=".uzaMainActivity"/>
+        <activity android:name=".mavaziAcitivity"/>
+        <activity android:name=".madawaActivity"/>
+        <activity android:name=".majiActivity"/>
+        <activity android:name=".ndaniActivity"/>
+        <activity android:name=".nyumbaAcitvity"/>
+        <activity android:name=".ofisiActivity"/>
+        <activity android:name=".samaniAcitvity"/>
+        <activity android:name=".shambaActivity"/>
+        <activity android:name=".shuleActivity"/>
+        <activity android:name=".vipodoziActivity"/>
+        <activity android:name=".nunuaMainActivity"/>
+        <activity android:name=".vipodoziNunuaActivity"/>
+        <activity android:name=".nyumbaNunuaActivity"/>
+        <activity android:name=".mavaziNunuaActivity"/>
+        <activity android:name=".madawaNunuaActivity"/>
+        <activity android:name=".majiNunuaActivity"/>
+        <activity android:name=".ndaniNunuaActivity"/>
+        <activity android:name=".ofisiNunuaActivity"/>
+        <activity android:name=".samaniNunuaActivity"/>
+        <activity android:name=".shambaNunuaActivity"/>
+        <activity android:name=".shuleNunuaActivity"/>
+        <activity android:name=".MainActivityfaq"/>
+        <activity android:name=".accountActivity"/>
+        <activity android:name=".browserActivity"/>
+        <activity android:name=".changeActivity"/>
+        <activity android:name=".chatActivity"/>
+        <activity android:name=".downloadActivity"/>
+        <activity android:name=".postActivity"/>
+        <activity android:name=".updateActivity"/>
+    </application>
+
+</manifest>
